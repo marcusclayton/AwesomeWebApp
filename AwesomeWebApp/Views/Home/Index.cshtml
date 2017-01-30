@@ -12,14 +12,14 @@
     if (System.Configuration.ConfigurationManager.AppSettings["STAGE"] == "true")
     {
         <div class="jumbotron">
-            <h1>Azure Web App @ViewBag.Environment </h1>
+            <h1>Azure Web App @ViewBag.Environment</h1>
             <p class="lead">Site Overhaul 5 - Awesome Web App is running on Azure App Service.</p>
         </div>
     }
     else
     {
         <div class="jumbotron">
-            <h1>Azure Web App </h1>
+            <h1>Azure Web App @ViewBag.Environment</h1>
             <p class="lead">Site Overhaul 5 - Awesome Web App is running on Azure App Service.</p>
         </div>
     }
